@@ -24,15 +24,6 @@ export default function NavBar() {
         Doctor Schedule{"   |   "}
       </NavLink>
       <NavLink
-        to="/patientdatabase"
-        activeStyle={{
-          fontWeight: "bold",
-          color: "blue",
-        }}
-      >
-        Patient Database{"   |   "}
-      </NavLink>
-      <NavLink
         to="/patientsignup"
         activeStyle={{
           fontWeight: "bold",
@@ -42,6 +33,16 @@ export default function NavBar() {
         Patient Signup{"   |   "}
       </NavLink>
       <NavLink
+        to="/patientdatabase"
+        activeStyle={{
+          fontWeight: "bold",
+          color: "blue",
+        }}
+      >
+        Patient Database{"      "}
+      </NavLink>
+
+      {/* <NavLink
         to="/viewdetails"
         activeStyle={{
           fontWeight: "bold",
@@ -49,7 +50,7 @@ export default function NavBar() {
         }}
       >
         View Details
-      </NavLink>
+      </NavLink> */}
     </div>
   );
 }

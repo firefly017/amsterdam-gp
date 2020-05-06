@@ -1,5 +1,12 @@
 import React from "react";
 import Title from "../components/Title";
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   NavLink,
+// } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
@@ -12,8 +19,13 @@ export default function HomePage() {
       </p>
       <p>To make an appointment</p>
       <p>call: 020 555 5555</p>
-      <button>Who is on duty? {"       "}</button>
-      <button>I am a new patient</button>
+      <Link to={`/doctorschedule`}>
+        <button>Who is on duty?</button>
+      </Link>
+
+      <Link to={`/patientsignup`}>
+        <button>I am a new patient</button>
+      </Link>
     </div>
   );
 }
