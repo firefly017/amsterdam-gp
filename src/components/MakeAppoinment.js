@@ -1,10 +1,11 @@
 import React from "react";
+import OpeningHours from "./OpeningHours";
 
 export default function MakeAppoinment() {
   return (
     <div>
       <p>
-        We are : <b>open</b>
+        <OpeningHours />
       </p>
       <p>To make an appointment</p>
       <p>call: 020 555 5555</p>

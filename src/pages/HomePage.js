@@ -7,7 +7,7 @@ import Title from "../components/Title";
 //   NavLink,
 // } from "react-router-dom";
 import { Link } from "react-router-dom";
-import doctorschedule from "../components/MakeAppoinment";
+// import doctorschedule from "../components/MakeAppoinment";
 import MakeAppoinment from "../components/MakeAppoinment";
 
 export default function HomePage() {

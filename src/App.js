@@ -1,13 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Switch,
   Route,
-  NavLink,
+  // NavLink,
 } from "react-router-dom";
-import Title from "./components/Title";
+// import Title from "./components/Title";
 import HomePage from "./pages/HomePage";
 import DoctorSchedule from "./pages/DoctorSchedule";
 import PatientDatabase from "./pages/PatientDatabase";
