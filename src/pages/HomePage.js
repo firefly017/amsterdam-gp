@@ -7,6 +7,8 @@ import Title from "../components/Title";
 //   NavLink,
 // } from "react-router-dom";
 import { Link } from "react-router-dom";
+import doctorschedule from "../components/MakeAppoinment";
+import MakeAppoinment from "../components/MakeAppoinment";
 
 export default function HomePage() {
   return (
@@ -14,11 +16,8 @@ export default function HomePage() {
       <h1>
         <Title />
       </h1>
-      <p>
-        We are : <b>open</b>
-      </p>
-      <p>To make an appointment</p>
-      <p>call: 020 555 5555</p>
+      <MakeAppoinment />
+
       <Link to={`/doctorschedule`}>
         <button>Who is on duty?</button>
       </Link>
