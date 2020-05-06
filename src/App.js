@@ -26,11 +26,6 @@ function App() {
         <Route path="/viewdetails" component={ViewDetails} />
         <Route exact path="/" component={HomePage} />
       </Switch>
-      <main></main>
-
-      <header className="App-header">
-        <Title />
-      </header>
     </div>
   );
 }

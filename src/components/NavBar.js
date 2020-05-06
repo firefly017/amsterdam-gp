@@ -12,7 +12,7 @@ export default function NavBar() {
           color: "blue",
         }}
       >
-        Home{" | "}
+        Home{"   |   "}
       </NavLink>
       <NavLink
         to="/doctorschedule"
@@ -21,7 +21,7 @@ export default function NavBar() {
           color: "blue",
         }}
       >
-        Doctor Schedule{" | "}
+        Doctor Schedule{"   |   "}
       </NavLink>
       <NavLink
         to="/patientdatabase"
@@ -30,7 +30,7 @@ export default function NavBar() {
           color: "blue",
         }}
       >
-        Patient Database{" | "}
+        Patient Database{"   |   "}
       </NavLink>
       <NavLink
         to="/patientsignup"
@@ -39,7 +39,7 @@ export default function NavBar() {
           color: "blue",
         }}
       >
-        Patient Signup{" | "}
+        Patient Signup{"   |   "}
       </NavLink>
       <NavLink
         to="/viewdetails"
