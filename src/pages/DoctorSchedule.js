@@ -23,24 +23,32 @@ export default function DoctorSchedule() {
       return "Loading...";
     } else {
       return (
-        <table className="doctors">
-          <thead>
-            <tr className="doctortable-headrow">
-              <th>Doctor</th>
-              <th>Availability</th>
-            </tr>
-          </thead>
-          {doctors.map((doctor) => {
-            const availability = doctor.onDuty ? "on duty" : "off duty";
-            return (
-              <DoctorCard
-                key={doctor.id}
-                doctor={doctor.doctor}
-                onDuty={availability}
-              />
-            );
-          })}
-        </table>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <table className="doctors">
+            <thead>
+              <tr className="doctortable-headrow">
+                <th>Doctor</th>
+                <th>Availability</th>
+              </tr>
+            </thead>
+            {doctors.map((doctor) => {
+              const availability = doctor.onDuty ? "on duty" : "off duty";
+              return (
+                <DoctorCard
+                  key={doctor.id}
+                  doctor={doctor.doctor}
+                  onDuty={availability}
+                />
+              );
+            })}
+          </table>
+        </div>
       );
     }
   }
