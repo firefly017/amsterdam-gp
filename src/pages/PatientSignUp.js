@@ -1,12 +1,22 @@
 import React, { useState } from "react";
 
 export default function PatientSignUp() {
-  // const [name, set_name] = useState("");
+  const [firstName, set_firstName] = useState(" ");
+  function changeFirstName(event) {
+    set_firstName(event.target.value);
+  }
+  // prepare state
   return (
-    <div className="PatientSignUpForm">
+    <form className="PatientSignUpForm">
       <h1>Patient Sing up</h1>
       <p>
-        First name : <input type="text" placeholder="First Name" />
+        First name :{" "}
+        <input
+          type="text"
+          value={firstName}
+          onChange={changeFirstName}
+          placeholder="First Name"
+        />
       </p>
       <p>
         Last name : <input type="text" placeholder="Last name" />
@@ -36,6 +46,9 @@ export default function PatientSignUp() {
       <p>
         <button type="button">Submit</button>
       </p>
-    </div>
+      <button type="button" onClick={() => console.log(firstName)}>
+        change firstname{" "}
+      </button>
+    </form>
   );
 }
