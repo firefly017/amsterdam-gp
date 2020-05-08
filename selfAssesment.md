@@ -1,15 +1,15 @@
-| Section           | Max Points | Self | Evaluator |
-| ----------------- | ---------- | ---- | --------- |
-| 1 Navigation      | 5          | 0/5  | 0/5       |
-| 2 Contact Details | 4          | 0/4  | 0/4       |
-| 3 Availability    | 7          | 0/7  | 0/7       |
-| 4 Sign up         | 8          | 0/8  | 0/8       |
-| 5 Patient DB      | 16         | 0/16 | 0/16      |
-| 6 Patient Details | 5          | 0/5  | 0/5       |
-| 7 Express server  | 7          | 0/7  | 0/7       |
-| 8 Styling         | 2          | 0/2  | 0/2       |
-| 9 Finishing up    | 6          | 0/6  | 0/6       |
-| Total             | 60         | 0/60 | 0/60      |
+| Section           | Max Points | Self    | Evaluator |
+| ----------------- | ---------- | ------- | --------- |
+| 1 Navigation      | 5          | 5/5     | 0/5       |
+| 2 Contact Details | 4          | 4/4     | 0/4       |
+| 3 Availability    | 7          | 7/7     | 0/7       |
+| 4 Sign up         | 8          | 8/8     | 0/8       |
+| 5 Patient DB      | 16         | 7.5/16  | 0/16      |
+| 6 Patient Details | 5          | 0/5     | 0/5       |
+| 7 Express server  | 7          | 0/7     | 0/7       |
+| 8 Styling         | 2          | 0/2     | 0/2       |
+| 9 Finishing up    | 6          | 6/6     | 0/6       |
+| Total             | 60         | 37.5/60 | 0/60      |
 
 | 1. Navigation - Criteria                                  | Points | Self | Evaluator |
 | --------------------------------------------------------- | ------ | ---- | --------- |
@@ -52,13 +52,13 @@
 
 | 5. Patient DB - Criteria                                                  | Points | Self | Evaluator |
 | ------------------------------------------------------------------------- | ------ | ---- | --------- |
-| The `name`, `id` & `dateOfBirth` is displayed for all patients            | 1      |      |           |
-| The data for each patient is displayed using a seperate component         | 2      |      |           |
-| The data is displayed using .map                                          | 1      |      |           |
-| There is a warning in the console regarding "key" props                   | -1     |      |           |
-| The patients are sorted by their `lastName` using .sort                   | 2      |      |           |
-| The data for the patients is fetched from the api, not hardcoded          | 1      |      |           |
-| Each patient displayed has a `show details` button                        | 0.5    |      |           |
+| The `name`, `id` & `dateOfBirth` is displayed for all patients            | 1      | 1    |           |
+| The data for each patient is displayed using a seperate component         | 2      | 2    |           |
+| The data is displayed using .map                                          | 1      | 1    |           |
+| There is a warning in the console regarding "key" props                   | -1     | 0    |           |
+| The patients are sorted by their `lastName` using .sort                   | 2      | 2    |           |
+| The data for the patients is fetched from the api, not hardcoded          | 1      | 1    |           |
+| Each patient displayed has a `show details` button                        | 0.5    | 0.5  |           |
 | The show details button links to the detail page for that patient         | 1.5    |      |           |
 | The page has a `select` input for the 3 doctors names and `all`           | 1      |      |           |
 | When `all` is selected, all patients are displayed                        | 1      |      |           |
@@ -93,8 +93,8 @@
 
 | 9. Finishing up - Criteria                                                       | Points | Self | Evaluator |
 | -------------------------------------------------------------------------------- | ------ | ---- | --------- |
-| Student performed an accurate self assessment (within 7 points of the evaluator) | 2      |      |           |
-| Student can reflect on their process by writing a reflection of ~200 words       | 2      |      |           |
-| Student has committed at least once per section                                  | 1      |      |           |
-| Student has pushed their repository using git                                    | 1      |      |           |
+| Student performed an accurate self assessment (within 7 points of the evaluator) | 2      | 2    |           |
+| Student can reflect on their process by writing a reflection of ~200 words       | 2      | 2    |           |
+| Student has committed at least once per section                                  | 1      | 1    |           |
+| Student has pushed their repository using git                                    | 1      | 1    |           |
 | Total                                                                            | 6      |      |           |
