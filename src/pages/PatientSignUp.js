@@ -18,7 +18,7 @@ export default function PatientSignUp() {
   }
 
   if (formSubmitted) {
-    return <h3>Thank you!</h3>;
+    return <h3>Thank you for signing up! Your data has been recorded!</h3>;
   }
 
   return (
