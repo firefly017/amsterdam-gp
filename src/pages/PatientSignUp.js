@@ -50,12 +50,12 @@ export default function PatientSignUp() {
         </select>
       </p>
       <p>
-        <label for="date of birth">
+        <label for="dateOfBirth">
           Date of birth :{" "}
           <input
             type="date"
-            id="date of birth"
-            name="date of birth"
+            id="dateOfBirth"
+            name="dateOfBirth"
             onChange={handleInputChange}
           ></input>
         </label>
