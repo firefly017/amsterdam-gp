@@ -13,42 +13,42 @@
 
 | 1. Navigation - Criteria                                  | Points | Self | Evaluator |
 | --------------------------------------------------------- | ------ | ---- | --------- |
-| 4 Static Routes are implemented using react router        | 1      |      |           |
-| Each route renders a different component                  | 1      |      |           |
-| A navbar can be used to navigate between the static pages | 1      |      |           |
-| 2 Buttons link to the correct pages                       | 1      |      |           |
-| The navbar indicates what page you are on                 | 1      |      |           |
-| Total                                                     | 5      |      |           |
+| 4 Static Routes are implemented using react router        | 1      | 1    |           |
+| Each route renders a different component                  | 1      | 1    |           |
+| A navbar can be used to navigate between the static pages | 1      | 1    |           |
+| 2 Buttons link to the correct pages                       | 1      | 1    |           |
+| The navbar indicates what page you are on                 | 1      | 1    |           |
+| Total                                                     | 5      | 5    |           |
 
 | 2. Contact Details - Criteria                                          | Points | Self | Evaluator |
 | ---------------------------------------------------------------------- | ------ | ---- | --------- |
-| Phone number is displayed on both pages                                | 0.5    |      |           |
-| Wether the practice is open right now is displayed on both pages       | 0.5    |      |           |
-| Wether the practice is open or closed is dynamic, not hardcoded        | 2      |      |           |
-| To display this information the same component is reused on both pages | 1      |      |           |
-| Total                                                                  | 4      |      |           |
+| Phone number is displayed on both pages                                | 0.5    | 0.5  |           |
+| Wether the practice is open right now is displayed on both pages       | 0.5    | 0.5  |           |
+| Wether the practice is open or closed is dynamic, not hardcoded        | 2      | 2    |           |
+| To display this information the same component is reused on both pages | 1      | 2    |           |
+| Total                                                                  | 4      | 4    |           |
 
 | 3. Availability - Criteria                                        | Points | Self | Evaluator |
 | ----------------------------------------------------------------- | ------ | ---- | --------- |
-| Doctor availabilty is displayed on the who is on duty page        | 1      |      |           |
-| The data is fetched from the api, not hardcoded                   | 2      |      |           |
-| If the data is still being fetched, display "loading" to the user | 2      |      |           |
-| The data is displayed using .map                                  | 1      |      |           |
-| There is a warning in the console regarding "key" props           | -1     |      |           |
-| Doctor availability is displayed using an html `table` element    | 1      |      |           |
-| Total                                                             | 7      |      |           |
+| Doctor availabilty is displayed on the who is on duty page        | 1      | 1    |           |
+| The data is fetched from the api, not hardcoded                   | 2      | 2    |           |
+| If the data is still being fetched, display "loading" to the user | 2      | 2    |           |
+| The data is displayed using .map                                  | 1      | 1    |           |
+| There is a warning in the console regarding "key" props           | -1     | 0    |           |
+| Doctor availability is displayed using an html `table` element    | 1      | 1    |           |
+| Total                                                             | 7      | 7    |           |
 
 | 4. Sign up - Criteria                                                            | Points | Self | Evaluator |
 | -------------------------------------------------------------------------------- | ------ | ---- | --------- |
-| A form is displayed on the Patient Signup page                                   | 1      |      |           |
-| The form has inputs for firstName, lastName, email, phoneNumber & submit         | 0.5    |      |           |
-| The form has a select input for gender, and a date input for dateOfBirth         | 0.5    |      |           |
-| The state of the form is controlled using React useState hook(s)                 | 2      |      |           |
-| When the form is submitted, the user input for all form fields is console.logged | 2      |      |           |
-| When the form has been submitted, we show a success message to the user          | 2      |      |           |
-| The success message is an alert, prompt or confirm popup                         | -1     |      |           |
-| Submitting the form refreshes the page                                           | -2     |      |           |
-| Total                                                                            | 8      |      |           |
+| A form is displayed on the Patient Signup page                                   | 1      | 1    |           |
+| The form has inputs for firstName, lastName, email, phoneNumber & submit         | 0.5    | 0.5  |           |
+| The form has a select input for gender, and a date input for dateOfBirth         | 0.5    | 0.5  |           |
+| The state of the form is controlled using React useState hook(s)                 | 2      | 2    |           |
+| When the form is submitted, the user input for all form fields is console.logged | 2      | 2    |           |
+| When the form has been submitted, we show a success message to the user          | 2      | 2    |           |
+| The success message is an alert, prompt or confirm popup                         | -1     | 0    |           |
+| Submitting the form refreshes the page                                           | -2     | 0    |           |
+| Total                                                                            | 8      | 8    |           |
 
 | 5. Patient DB - Criteria                                                  | Points | Self | Evaluator |
 | ------------------------------------------------------------------------- | ------ | ---- | --------- |

@@ -12,7 +12,7 @@ import HomePage from "./pages/HomePage";
 import DoctorSchedule from "./pages/DoctorSchedule";
 import PatientDatabase from "./pages/PatientDatabase";
 import PatientSignUp from "./pages/PatientSignUp";
-import ViewDetails from "./pages/ViewDetails";
+import PatientDetails from "./pages/PatientDetails";
 import NavBar from "./components/NavBar";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Route path="/doctorschedule" component={DoctorSchedule} />
         <Route path="/patientdatabase" component={PatientDatabase} />
         <Route path="/patientsignup" component={PatientSignUp} />
-        <Route path="/viewdetails" component={ViewDetails} />
+        <Route path="/patientdetails/:id" component={PatientDetails} />
         <Route exact path="/" component={HomePage} />
       </Switch>
     </div>
